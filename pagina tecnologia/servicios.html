@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Family Control</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background-color: #000;
+            width: 100%;
+        }
+        header h1 {
+            color: #d4af37;
+        }
+        .service-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            width: 100%;
+        }
+        .service-item {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff;
+            border: 1px solid #d4af37;
+        }
+        .service-item h2 {
+            color: #d4af37;
+            margin-bottom: 10px;
+        }
+        .service-item ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .service-item li {
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        @media (max-width: 768px) {
+            .service-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Servicios</h1>
+    </header>
+
+    <div class="service-container">
+        <!-- Servicio 1 -->
+        <div class="service-item">
+            <h2>1. Conexión Familiar en Tiempo Real</h2>
+            <ul>
+                <li><strong>Videollamadas y Mensajería:</strong> Un servicio de comunicación para que los familiares puedan realizar videollamadas y enviar mensajes a sus seres queridos de manera rápida y fácil.</li>
+                <li><strong>Notificaciones Personalizadas:</strong> Alertas sobre eventos importantes, recordatorios de cumpleaños, y actualizaciones de estado de los adultos mayores para mantener la familia informada.</li>
+            </ul>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="service-item">
+            <h2>2. Seguimiento de Salud y Bienestar</h2>
+            <ul>
+                <li><strong>Monitoreo de Salud:</strong> Integración con dispositivos médicos y wearables que registran datos de salud como presión arterial, frecuencia cardíaca y niveles de actividad.</li>
+                <li><strong>Alertas Médicas:</strong> Notificaciones automáticas sobre cambios en el estado de salud, recordatorios de medicamentos, y posibilidad de generar reportes para el seguimiento médico.</li>
+            </ul>
+        </div>
+
+        <!-- Servicio 3 -->
+        <div class="service-item">
+            <h2>3. Agenda de Actividades y Citas</h2>
+            <ul>
+                <li><strong>Calendario Compartido:</strong> Los familiares y cuidadores pueden gestionar y coordinar citas médicas, visitas familiares y actividades recreativas.</li>
+                <li><strong>Recordatorios de Medicación:</strong> Recordatorios configurables para la toma de medicinas, tanto para los usuarios como para los familiares.</li>
+            </ul>
+        </div>
+
+        <!-- Servicio 4 -->
+        <div class="service-item">
+            <h2>4. Soporte y Recursos para Cuidadores</h2>
+            <ul>
+                <li><strong>Guías y Recursos:</strong> Información y guías sobre cómo brindar cuidado emocional y físico a los adultos mayores.</li>
+                <li><strong>Foro y Grupos de Apoyo:</strong> Un espacio donde los cuidadores y familiares pueden compartir experiencias, consejos y obtener apoyo de una comunidad.</li>
+            </ul>
+        </div>
+
+        <!-- Servicio 5 -->
+        <div class="service-item">
+            <h2>5. Redes de Apoyo y Servicios Externos</h2>
+            <ul>
+                <li><strong>Directorio de Profesionales:</strong> Acceso a un directorio de cuidadores, médicos y servicios externos especializados en geriatría.</li>
+                <li><strong>Programas Comunitarios:</strong> Enlaces a programas comunitarios y de voluntariado que ofrezcan apoyo adicional.</li>
+            </ul>
+        </div>
+
+        <!-- Servicio 6 -->
+        <div class="service-item">
+            <h2>6. Centro de Ayuda y Soporte Técnico</h2>
+            <ul>
+                <li><strong>Asistencia Técnica 24/7:</strong> Soporte en tiempo real para resolver problemas técnicos y responder preguntas sobre el uso de la aplicación.</li>
+                <li><strong>Preguntas Frecuentes y Chat en Vivo:</strong> Un apartado con respuestas a dudas comunes y una opción de chat para asistencia rápida.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
